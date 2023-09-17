@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Istok Web', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fae4e4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* home page css*/
+
+.stockTable{
+  width: 100%;
+}
+.stockTable tr {
+  background-color: white;
+  text-align: left;
+}
+
+.stockTable  td {
+  padding: 20px 10px 10px 50px;  
+}
+
+.stockTable tbody tr:hover {
+  background-color: #eeeeee !important;
+  cursor: pointer;
+
+}
+
+.stockTable th {
+  padding: 20px 10px 10px 50px;  
+}
+
+.changePages{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  align-items:center;
+  margin-top:10px
+}
+
+.changePages button{
+  background-color:white;
+  border-radius:100px;
+  border:none;
+  padding:10px;
+  display:flex;
+  align-items:center;
+  color:rgb(84, 51, 1);
+  cursor: pointer;
+}
+
+.changePages button:hover{
+  background-color:rgb(248, 202, 208);
+
+}
+
+/* footer css */
+.footerLinks{
+  font-size:16px; 
+  font-weight:800;
+  display:flex;
+  flex-direction:column;
+  gap:10px
+}
+
+.footerLinks div{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footerLinks a{
+  text-decoration: none;
+  color: black;
+}
+
+.footerLinks div:hover{
+  color: rgb(229, 27, 27);
+}
+
+
+.footerIcons{
+  width: 100px;
+  font-size:20px; 
+  font-weight:800;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  gap:10px
+}
+
+.footerIcons div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.footerIcons a{
+  color: black;
+}
+
+.footerIcons div:hover{
+  background-color: rgb(220, 220, 220);
+}
+
+/* navigation bar css */
+
+.navigationContainer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:4%;
+  width:100%; 
+  height:150px; 
+  background-color:white; 
+  padding:2% 6.4% 0% 6.4%; 
+  box-sizing:border-box
+}
+
+.searchBar input{
+  padding:0; 
+  background-color:white;
+  text-align:center;
+  border: none;
+  outline: none;
+}
+
+.searchBar input:focus{
+  outline: none;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  padding:0; 
+  border-radius:10px;
+  width: 175px;
+  height: 35px;
+  background-color:white;
+  border: 1px black solid;
+}
+
+
+
+.searchBar button{
+  border:  none;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-color:white;
+  border-radius: 200px;
+}
+
+.searchBar button:hover{
+  border:  none;
+  background-color:rgb(201, 201, 201);
+}
+
+
+
+/* cryptoDetails page css */
+
+.timeSchemeContainer{
+  margin-bottom:30px; 
+  display:flex;
+  justify-content:space-between; 
+  width:20%
+}
+
+.timeSchemeContainer button {
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.timeSchemeContainer button:hover{
+  color: blue !important;
+}
+
+.allPrices:hover{
+  color: rgb(27, 27, 208);
+
+}
